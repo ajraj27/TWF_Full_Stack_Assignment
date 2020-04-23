@@ -91,7 +91,7 @@
         </td>
         <td>
             <code>
-                curl --request GET
+                curl --request POST
                 --url https://twf-fullstack-intern-assign.herokuapp.com/solve
                 -d 'input=[1, 1, 1, 1, 0, 0, 0, 0, 0]'
             </code>
