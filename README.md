@@ -92,7 +92,7 @@
         <td>
             <code>
                 curl --request GET
-                --url https://twf-fullstack-intern-assign.herokuapp.com/
+                --url https://twf-fullstack-intern-assign.herokuapp.com/solve
                 -d 'input=[1, 1, 1, 1, 0, 0, 0, 0, 0]'
             </code>
         </td>
