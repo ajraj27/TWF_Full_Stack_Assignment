@@ -22,6 +22,7 @@ const controller = (req, res)  => {
                 return res.status(400).json('Invalid input array')
             }
         }
+        
     } catch (error) {
         return res.status(400).json(error)
     }    
