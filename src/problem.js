@@ -157,7 +157,7 @@ const three = (weights) => {
             cost += getCostPerUnit(weights[combinations[j][2]]) *
                 distanceMatrix[combinations[j][2]][3]
             
-            minCost = min(minCost, cost);
+            minCost = min(minCost, cost)
     
             // Ci -> L1 -> Cj -> Ck -> L1
             cost = 0;
@@ -170,7 +170,7 @@ const three = (weights) => {
             cost += getCostPerUnit(weights[combinations[j][1]] + weights[combinations[j][2]]) *
                 distanceMatrix[combinations[j][2]][3]
     
-            minCost = min(minCost, cost);
+            minCost = min(minCost, cost)
     
             // Ci -> L1 -> Cj -> L1 -> Ck -> L1
             cost = 0;
@@ -182,7 +182,7 @@ const three = (weights) => {
                 distanceMatrix[combinations[j][1]][3];
             cost += getCostPerUnit(0) *
                 distanceMatrix[3][combinations[j][2]]
-            cost += getCostPerUnit(weights[combinations[j][combinations[j][2]]]) *
+            cost += getCostPerUnit(weights[combinations[j][2]]) *
                 distanceMatrix[combinations[j][2]][3]
             
             minCost = min(minCost, cost)
